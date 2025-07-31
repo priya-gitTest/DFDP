@@ -449,7 +449,7 @@ def main():
     # Configuration
     FDP_BASE_URL = "https://fdp.example.org"  # Replace with your FDP instance
     API_KEY = "your-api-key-here"  # Replace with your API key
-    DICOM_DIRECTORY = "/path/to/dicom/files"  # Replace with your DICOM directory
+    DICOM_DIRECTORY = "/dicom_files"  # Replace with your DICOM directory
     ACCESS_URL = "https://data.example.org/dicom-dataset"  # Replace with actual access URL
     
     # Initialize components
