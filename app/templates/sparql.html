@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head><title>SPARQL Endpoint</title></head>
+<body>
+  <h1>SPARQL Query UI</h1>
+  <form method="post">
+    <textarea name="query" rows="10" cols="80">{{ query or '' }}</textarea><br>
+    <button type="submit">Run Query</button>
+  </form>
+  {% if results %}
+    <h2>Results</h2>
+    <ul>
+      {% for row in results %}
+        <li>{{ row }}</li>
+      {% endfor %}
+    </ul>
+  {% endif %}
+  {% if error %}
+    <p style="color: red;">Error: {{ error }}</p>
+  {% endif %}
+</body>
+</html>

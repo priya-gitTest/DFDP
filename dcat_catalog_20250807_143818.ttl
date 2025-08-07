@@ -1,0 +1,480 @@
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix ex: <http://example.org/ro/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:dicom_catalog a dcat:Catalog ;
+    dct:creator "Your Lab / Hospital / Org" ;
+    dct:description "A catalog of DICOM metadata extracted from medical imaging files." ;
+    dct:issued "2025-08-07"^^xsd:date ;
+    dct:title "DICOM Metadata Catalog" ;
+    dcat:dataset ex:dicom_019a1a5d2ab84daa8e7f4337390f8477,
+        ex:dicom_04d66d1425dd4693bf7a089813f33875,
+        ex:dicom_0552f7822b404af2ae150719fc487eba,
+        ex:dicom_06bf5e50d24845078f2cae64f5c3cbde,
+        ex:dicom_0fd5b2eac6784511a88b8693f16a9302,
+        ex:dicom_137374497d3141b398fd956aae251f45,
+        ex:dicom_162f6ad8e12445be893ab20bbfd428af,
+        ex:dicom_18737167ffb34a309da57676a056c04d,
+        ex:dicom_2bc88e9757a749a8a3bd4f6125eb0060,
+        ex:dicom_30715cd8ee734a33819d15598f1fc9f6,
+        ex:dicom_32d4d2f816a94d1ab0263b973086be8c,
+        ex:dicom_33122aec920d487a9ae68bfe9483d6f2,
+        ex:dicom_34ae09dd2d84422280a8155edb56d88f,
+        ex:dicom_3642518e143e4661aaf0127705fec7c8,
+        ex:dicom_45994bc28ef34d1c8c037aa997aa6133,
+        ex:dicom_54d20d0a1a0b49adb648498b149116be,
+        ex:dicom_5d3aaf8545a4443895f8ebf29424c9cd,
+        ex:dicom_6083404971b4405a8252c730dde0c52a,
+        ex:dicom_62da22d272ba4a768e39a7e2bab01ae5,
+        ex:dicom_661cd2bd0e1242c9b8438d05f4767e80,
+        ex:dicom_6bb4a07d5fab4efbb7a1b72153df1ded,
+        ex:dicom_6ce9aa4cb13b43a5b4a57d08b612f97f,
+        ex:dicom_725bcccb99c54085b124445ec4cbcf02,
+        ex:dicom_7ccfad6b640147e1a4878bf979d5d9db,
+        ex:dicom_8a03594676e34a7b921b2f686bf54591,
+        ex:dicom_8b19d8d4fd8346cf9f6a92b4514981f8,
+        ex:dicom_95d2a242cba04ee493b2572acdb98fed,
+        ex:dicom_986f4d5e79924e9b9bc18cd569059527,
+        ex:dicom_9b2f9f3711174be589786515a2106d45,
+        ex:dicom_a62329a30bfc4983bf0847fb223ffb3c,
+        ex:dicom_b0f7970104fe42f5aa5189049bb08c41,
+        ex:dicom_b856ae4ebeb343d5bfeb9cf4876cfae2,
+        ex:dicom_b8838b3daaae40b6a3d66143e58b1aef,
+        ex:dicom_b8dd7a61d5be406d9397b548b2c9bd27,
+        ex:dicom_b9c49b58308e458a8d0aa4be61e8f9d9,
+        ex:dicom_b9f63319e08146fba0091d77725e9d9c,
+        ex:dicom_bf67a0f363e54c918eede1513b015ab7,
+        ex:dicom_c205c43fe1ca45fc9cf1d6beda242f78,
+        ex:dicom_c241c54164a641728be8b5abca4c1808,
+        ex:dicom_c2d80af4dd78456bad8ccac59acc9c38,
+        ex:dicom_c5c511b98a8e4cbd81a891b1fd8dbe14,
+        ex:dicom_c66f3b8dcf174e878d91f3cce265bb9d,
+        ex:dicom_cbe628da5cbb4b11a32f50ffd8e7f599,
+        ex:dicom_da07a1e2ec464947b2cb2407a0ef2d1e,
+        ex:dicom_e1b50c3eb380473f80c79cb45a43bbe9,
+        ex:dicom_e3750e9e01e84f0e86ddd950013a9ffe,
+        ex:dicom_e869b20ffd974d7597da2eed89ccef2d,
+        ex:dicom_e89b7b81f7804e30af291bf9ba8d109e,
+        ex:dicom_f5011de442824858817e30deeecd0f3f,
+        ex:dicom_f7efb77aafd8445b834490923ef41f91,
+        ex:dicom_f810fb3c41c848ebb0a9675f18c8ea32,
+        ex:dicom_fc005cd556df438c909ede08753470db .
+
+ex:dicom_019a1a5d2ab84daa8e7f4337390f8477 a dcat:Dataset ;
+    dct:creator "Unknown" ;
+    dct:date "20250807" ;
+    dct:description "Modality: OT" ;
+    dct:identifier "PAT013" ;
+    dct:title "Unknown" ;
+    foaf:name "Patient^PAT013" .
+
+ex:dicom_04d66d1425dd4693bf7a089813f33875 a dcat:Dataset ;
+    dct:creator "Unknown" ;
+    dct:date "20250807" ;
+    dct:description "Modality: OT" ;
+    dct:identifier "PAT041" ;
+    dct:title "Unknown" ;
+    foaf:name "Patient^PAT041" .
+
+ex:dicom_0552f7822b404af2ae150719fc487eba a dcat:Dataset ;
+    dct:creator "Unknown" ;
+    dct:date "20250807" ;
+    dct:description "Modality: OT" ;
+    dct:identifier "PAT040" ;
+    dct:title "Unknown" ;
+    foaf:name "Patient^PAT040" .
+
+ex:dicom_06bf5e50d24845078f2cae64f5c3cbde a dcat:Dataset ;
+    dct:creator "Unknown" ;
+    dct:date "20250807" ;
+    dct:description "Modality: OT" ;
+    dct:identifier "PAT020" ;
+    dct:title "Unknown" ;
+    foaf:name "Patient^PAT020" .
+
+ex:dicom_0fd5b2eac6784511a88b8693f16a9302 a dcat:Dataset ;
+    dct:creator "Unknown" ;
+    dct:date "20250807" ;
+    dct:description "Modality: OT" ;
+    dct:identifier "PAT025" ;
+    dct:title "Unknown" ;
+    foaf:name "Patient^PAT025" .
+
+ex:dicom_137374497d3141b398fd956aae251f45 a dcat:Dataset ;
+    dct:creator "Unknown" ;
+    dct:date "20250807" ;
+    dct:description "Modality: OT" ;
+    dct:identifier "PAT036" ;
+    dct:title "Unknown" ;
+    foaf:name "Patient^PAT036" .
+
+ex:dicom_162f6ad8e12445be893ab20bbfd428af a dcat:Dataset ;
+    dct:creator "Unknown" ;
+    dct:date "20250807" ;
+    dct:description "Modality: OT" ;
+    dct:identifier "PAT039" ;
+    dct:title "Unknown" ;
+    foaf:name "Patient^PAT039" .
+
+ex:dicom_18737167ffb34a309da57676a056c04d a dcat:Dataset ;
+    dct:creator "Unknown" ;
+    dct:date "20250807" ;
+    dct:description "Modality: OT" ;
+    dct:identifier "PAT009" ;
+    dct:title "Unknown" ;
+    foaf:name "Patient^PAT009" .
+
+ex:dicom_2bc88e9757a749a8a3bd4f6125eb0060 a dcat:Dataset ;
+    dct:creator "Unknown" ;
+    dct:date "" ;
+    dct:description "Modality: CT" ;
+    dct:identifier "CQ500-CT-310" ;
+    dct:title "5/5mm Plain" ;
+    foaf:name "CQ500-CT-310" .
+
+ex:dicom_30715cd8ee734a33819d15598f1fc9f6 a dcat:Dataset ;
+    dct:creator "Unknown" ;
+    dct:date "20250807" ;
+    dct:description "Modality: OT" ;
+    dct:identifier "PAT037" ;
+    dct:title "Unknown" ;
+    foaf:name "Patient^PAT037" .
+
+ex:dicom_32d4d2f816a94d1ab0263b973086be8c a dcat:Dataset ;
+    dct:creator "Unknown" ;
+    dct:date "20250807" ;
+    dct:description "Modality: OT" ;
+    dct:identifier "PAT043" ;
+    dct:title "Unknown" ;
+    foaf:name "Patient^PAT043" .
+
+ex:dicom_33122aec920d487a9ae68bfe9483d6f2 a dcat:Dataset ;
+    dct:creator "Unknown" ;
+    dct:date "20250807" ;
+    dct:description "Modality: OT" ;
+    dct:identifier "PAT049" ;
+    dct:title "Unknown" ;
+    foaf:name "Patient^PAT049" .
+
+ex:dicom_34ae09dd2d84422280a8155edb56d88f a dcat:Dataset ;
+    dct:creator "Unknown" ;
+    dct:date "20250807" ;
+    dct:description "Modality: OT" ;
+    dct:identifier "PAT001" ;
+    dct:title "Unknown" ;
+    foaf:name "Patient^PAT001" .
+
+ex:dicom_3642518e143e4661aaf0127705fec7c8 a dcat:Dataset ;
+    dct:creator "Unknown" ;
+    dct:date "20250807" ;
+    dct:description "Modality: OT" ;
+    dct:identifier "PAT035" ;
+    dct:title "Unknown" ;
+    foaf:name "Patient^PAT035" .
+
+ex:dicom_45994bc28ef34d1c8c037aa997aa6133 a dcat:Dataset ;
+    dct:creator "Unknown" ;
+    dct:date "20250807" ;
+    dct:description "Modality: OT" ;
+    dct:identifier "PAT050" ;
+    dct:title "Unknown" ;
+    foaf:name "Patient^PAT050" .
+
+ex:dicom_54d20d0a1a0b49adb648498b149116be a dcat:Dataset ;
+    dct:creator "Unknown" ;
+    dct:date "20250807" ;
+    dct:description "Modality: OT" ;
+    dct:identifier "PAT018" ;
+    dct:title "Unknown" ;
+    foaf:name "Patient^PAT018" .
+
+ex:dicom_5d3aaf8545a4443895f8ebf29424c9cd a dcat:Dataset ;
+    dct:creator "Unknown" ;
+    dct:date "20250807" ;
+    dct:description "Modality: OT" ;
+    dct:identifier "PAT045" ;
+    dct:title "Unknown" ;
+    foaf:name "Patient^PAT045" .
+
+ex:dicom_6083404971b4405a8252c730dde0c52a a dcat:Dataset ;
+    dct:creator "Unknown" ;
+    dct:date "20250807" ;
+    dct:description "Modality: OT" ;
+    dct:identifier "PAT027" ;
+    dct:title "Unknown" ;
+    foaf:name "Patient^PAT027" .
+
+ex:dicom_62da22d272ba4a768e39a7e2bab01ae5 a dcat:Dataset ;
+    dct:creator "Unknown" ;
+    dct:date "20250807" ;
+    dct:description "Modality: OT" ;
+    dct:identifier "PAT047" ;
+    dct:title "Unknown" ;
+    foaf:name "Patient^PAT047" .
+
+ex:dicom_661cd2bd0e1242c9b8438d05f4767e80 a dcat:Dataset ;
+    dct:creator "Unknown" ;
+    dct:date "20250807" ;
+    dct:description "Modality: OT" ;
+    dct:identifier "PAT010" ;
+    dct:title "Unknown" ;
+    foaf:name "Patient^PAT010" .
+
+ex:dicom_6bb4a07d5fab4efbb7a1b72153df1ded a dcat:Dataset ;
+    dct:creator "Unknown" ;
+    dct:date "20250807" ;
+    dct:description "Modality: OT" ;
+    dct:identifier "PAT011" ;
+    dct:title "Unknown" ;
+    foaf:name "Patient^PAT011" .
+
+ex:dicom_6ce9aa4cb13b43a5b4a57d08b612f97f a dcat:Dataset ;
+    dct:creator "TOSHIBA" ;
+    dct:date "20040826" ;
+    dct:description "Modality: MR" ;
+    dct:identifier "4MR1" ;
+    dct:title "Unknown" ;
+    foaf:name "CompressedSamples^MR1" .
+
+ex:dicom_725bcccb99c54085b124445ec4cbcf02 a dcat:Dataset ;
+    dct:creator "Unknown" ;
+    dct:date "20250807" ;
+    dct:description "Modality: OT" ;
+    dct:identifier "PAT038" ;
+    dct:title "Unknown" ;
+    foaf:name "Patient^PAT038" .
+
+ex:dicom_7ccfad6b640147e1a4878bf979d5d9db a dcat:Dataset ;
+    dct:creator "Unknown" ;
+    dct:date "20250807" ;
+    dct:description "Modality: OT" ;
+    dct:identifier "PAT030" ;
+    dct:title "Unknown" ;
+    foaf:name "Patient^PAT030" .
+
+ex:dicom_8a03594676e34a7b921b2f686bf54591 a dcat:Dataset ;
+    dct:creator "Unknown" ;
+    dct:date "20250807" ;
+    dct:description "Modality: OT" ;
+    dct:identifier "PAT031" ;
+    dct:title "Unknown" ;
+    foaf:name "Patient^PAT031" .
+
+ex:dicom_8b19d8d4fd8346cf9f6a92b4514981f8 a dcat:Dataset ;
+    dct:creator "Unknown" ;
+    dct:date "20250807" ;
+    dct:description "Modality: OT" ;
+    dct:identifier "PAT006" ;
+    dct:title "Unknown" ;
+    foaf:name "Patient^PAT006" .
+
+ex:dicom_95d2a242cba04ee493b2572acdb98fed a dcat:Dataset ;
+    dct:creator "Unknown" ;
+    dct:date "20250807" ;
+    dct:description "Modality: OT" ;
+    dct:identifier "PAT042" ;
+    dct:title "Unknown" ;
+    foaf:name "Patient^PAT042" .
+
+ex:dicom_986f4d5e79924e9b9bc18cd569059527 a dcat:Dataset ;
+    dct:creator "Unknown" ;
+    dct:date "20250807" ;
+    dct:description "Modality: OT" ;
+    dct:identifier "PAT004" ;
+    dct:title "Unknown" ;
+    foaf:name "Patient^PAT004" .
+
+ex:dicom_9b2f9f3711174be589786515a2106d45 a dcat:Dataset ;
+    dct:creator "Unknown" ;
+    dct:date "20250807" ;
+    dct:description "Modality: OT" ;
+    dct:identifier "PAT005" ;
+    dct:title "Unknown" ;
+    foaf:name "Patient^PAT005" .
+
+ex:dicom_a62329a30bfc4983bf0847fb223ffb3c a dcat:Dataset ;
+    dct:creator "Unknown" ;
+    dct:date "20250807" ;
+    dct:description "Modality: OT" ;
+    dct:identifier "PAT028" ;
+    dct:title "Unknown" ;
+    foaf:name "Patient^PAT028" .
+
+ex:dicom_b0f7970104fe42f5aa5189049bb08c41 a dcat:Dataset ;
+    dct:creator "Unknown" ;
+    dct:date "20250807" ;
+    dct:description "Modality: OT" ;
+    dct:identifier "PAT046" ;
+    dct:title "Unknown" ;
+    foaf:name "Patient^PAT046" .
+
+ex:dicom_b856ae4ebeb343d5bfeb9cf4876cfae2 a dcat:Dataset ;
+    dct:creator "Unknown" ;
+    dct:date "20250807" ;
+    dct:description "Modality: OT" ;
+    dct:identifier "PAT034" ;
+    dct:title "Unknown" ;
+    foaf:name "Patient^PAT034" .
+
+ex:dicom_b8838b3daaae40b6a3d66143e58b1aef a dcat:Dataset ;
+    dct:creator "Unknown" ;
+    dct:date "20250807" ;
+    dct:description "Modality: OT" ;
+    dct:identifier "PAT022" ;
+    dct:title "Unknown" ;
+    foaf:name "Patient^PAT022" .
+
+ex:dicom_b8dd7a61d5be406d9397b548b2c9bd27 a dcat:Dataset ;
+    dct:creator "Unknown" ;
+    dct:date "20250807" ;
+    dct:description "Modality: OT" ;
+    dct:identifier "PAT007" ;
+    dct:title "Unknown" ;
+    foaf:name "Patient^PAT007" .
+
+ex:dicom_b9c49b58308e458a8d0aa4be61e8f9d9 a dcat:Dataset ;
+    dct:creator "Unknown" ;
+    dct:date "20250807" ;
+    dct:description "Modality: OT" ;
+    dct:identifier "PAT017" ;
+    dct:title "Unknown" ;
+    foaf:name "Patient^PAT017" .
+
+ex:dicom_b9f63319e08146fba0091d77725e9d9c a dcat:Dataset ;
+    dct:creator "Unknown" ;
+    dct:date "20250807" ;
+    dct:description "Modality: OT" ;
+    dct:identifier "PAT003" ;
+    dct:title "Unknown" ;
+    foaf:name "Patient^PAT003" .
+
+ex:dicom_bf67a0f363e54c918eede1513b015ab7 a dcat:Dataset ;
+    dct:creator "Unknown" ;
+    dct:date "20250807" ;
+    dct:description "Modality: OT" ;
+    dct:identifier "PAT016" ;
+    dct:title "Unknown" ;
+    foaf:name "Patient^PAT016" .
+
+ex:dicom_c205c43fe1ca45fc9cf1d6beda242f78 a dcat:Dataset ;
+    dct:creator "Unknown" ;
+    dct:date "20250807" ;
+    dct:description "Modality: OT" ;
+    dct:identifier "PAT033" ;
+    dct:title "Unknown" ;
+    foaf:name "Patient^PAT033" .
+
+ex:dicom_c241c54164a641728be8b5abca4c1808 a dcat:Dataset ;
+    dct:creator "Unknown" ;
+    dct:date "20250807" ;
+    dct:description "Modality: OT" ;
+    dct:identifier "PAT048" ;
+    dct:title "Unknown" ;
+    foaf:name "Patient^PAT048" .
+
+ex:dicom_c2d80af4dd78456bad8ccac59acc9c38 a dcat:Dataset ;
+    dct:creator "Unknown" ;
+    dct:date "20250807" ;
+    dct:description "Modality: OT" ;
+    dct:identifier "PAT019" ;
+    dct:title "Unknown" ;
+    foaf:name "Patient^PAT019" .
+
+ex:dicom_c5c511b98a8e4cbd81a891b1fd8dbe14 a dcat:Dataset ;
+    dct:creator "Unknown" ;
+    dct:date "20250807" ;
+    dct:description "Modality: OT" ;
+    dct:identifier "PAT026" ;
+    dct:title "Unknown" ;
+    foaf:name "Patient^PAT026" .
+
+ex:dicom_c66f3b8dcf174e878d91f3cce265bb9d a dcat:Dataset ;
+    dct:creator "Unknown" ;
+    dct:date "20250807" ;
+    dct:description "Modality: OT" ;
+    dct:identifier "PAT029" ;
+    dct:title "Unknown" ;
+    foaf:name "Patient^PAT029" .
+
+ex:dicom_cbe628da5cbb4b11a32f50ffd8e7f599 a dcat:Dataset ;
+    dct:creator "Unknown" ;
+    dct:date "20250807" ;
+    dct:description "Modality: OT" ;
+    dct:identifier "PAT002" ;
+    dct:title "Unknown" ;
+    foaf:name "Patient^PAT002" .
+
+ex:dicom_da07a1e2ec464947b2cb2407a0ef2d1e a dcat:Dataset ;
+    dct:creator "Unknown" ;
+    dct:date "20250807" ;
+    dct:description "Modality: OT" ;
+    dct:identifier "PAT024" ;
+    dct:title "Unknown" ;
+    foaf:name "Patient^PAT024" .
+
+ex:dicom_e1b50c3eb380473f80c79cb45a43bbe9 a dcat:Dataset ;
+    dct:creator "Unknown" ;
+    dct:date "20250807" ;
+    dct:description "Modality: OT" ;
+    dct:identifier "PAT014" ;
+    dct:title "Unknown" ;
+    foaf:name "Patient^PAT014" .
+
+ex:dicom_e3750e9e01e84f0e86ddd950013a9ffe a dcat:Dataset ;
+    dct:creator "Unknown" ;
+    dct:date "20250807" ;
+    dct:description "Modality: OT" ;
+    dct:identifier "PAT044" ;
+    dct:title "Unknown" ;
+    foaf:name "Patient^PAT044" .
+
+ex:dicom_e869b20ffd974d7597da2eed89ccef2d a dcat:Dataset ;
+    dct:creator "Unknown" ;
+    dct:date "20250807" ;
+    dct:description "Modality: OT" ;
+    dct:identifier "PAT015" ;
+    dct:title "Unknown" ;
+    foaf:name "Patient^PAT015" .
+
+ex:dicom_e89b7b81f7804e30af291bf9ba8d109e a dcat:Dataset ;
+    dct:creator "Unknown" ;
+    dct:date "20250807" ;
+    dct:description "Modality: OT" ;
+    dct:identifier "PAT032" ;
+    dct:title "Unknown" ;
+    foaf:name "Patient^PAT032" .
+
+ex:dicom_f5011de442824858817e30deeecd0f3f a dcat:Dataset ;
+    dct:creator "Unknown" ;
+    dct:date "20250807" ;
+    dct:description "Modality: OT" ;
+    dct:identifier "PAT012" ;
+    dct:title "Unknown" ;
+    foaf:name "Patient^PAT012" .
+
+ex:dicom_f7efb77aafd8445b834490923ef41f91 a dcat:Dataset ;
+    dct:creator "Unknown" ;
+    dct:date "20250807" ;
+    dct:description "Modality: OT" ;
+    dct:identifier "PAT021" ;
+    dct:title "Unknown" ;
+    foaf:name "Patient^PAT021" .
+
+ex:dicom_f810fb3c41c848ebb0a9675f18c8ea32 a dcat:Dataset ;
+    dct:creator "Unknown" ;
+    dct:date "20250807" ;
+    dct:description "Modality: OT" ;
+    dct:identifier "PAT008" ;
+    dct:title "Unknown" ;
+    foaf:name "Patient^PAT008" .
+
+ex:dicom_fc005cd556df438c909ede08753470db a dcat:Dataset ;
+    dct:creator "Unknown" ;
+    dct:date "20250807" ;
+    dct:description "Modality: OT" ;
+    dct:identifier "PAT023" ;
+    dct:title "Unknown" ;
+    foaf:name "Patient^PAT023" .
+

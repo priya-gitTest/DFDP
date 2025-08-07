@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>DICOM DCAT Catalog</title>
+</head>
+<body>
+    <h1>DICOM Metadata Catalog</h1>
+    <table border="1">
+        <tr>
+            <th>Dataset ID</th>
+            <th>Title</th>
+            <th>Patient ID</th>
+            <th>Modality</th>
+            <th>Date</th>
+        </tr>
+        {% for ds in datasets %}
+        <tr>
+            <td><a href="/dataset/{{ ds.id }}">{{ ds.id }}</a></td>
+            <td>{{ ds.title }}</td>
+            <td>{{ ds.identifier }}</td>
+            <td>{{ ds.modality }}</td>
+            <td>{{ ds.date }}</td>
+        </tr>
+        {% endfor %}
+    </table>
+</body>
+</html>
