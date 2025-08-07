@@ -1,0 +1,30 @@
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix ex: <http://example.org/ro/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:dicom_catalog a dcat:Catalog ;
+    dct:creator "Your Lab / Hospital / Org" ;
+    dct:description "A catalog of DICOM metadata extracted from medical imaging files." ;
+    dct:issued "2025-08-07"^^xsd:date ;
+    dct:title "DICOM Metadata Catalog" ;
+    dcat:dataset ex:dicom_b31dae36068a4a9c99c38619fe1fae31,
+        ex:dicom_d098948b25a341378bf128b743f3a6f2 .
+
+ex:dicom_b31dae36068a4a9c99c38619fe1fae31 a dcat:Dataset ;
+    dct:creator "Unknown" ;
+    dct:date "" ;
+    dct:description "Modality: CT" ;
+    dct:identifier "CQ500-CT-310" ;
+    dct:title "5/5mm Plain" ;
+    foaf:name "CQ500-CT-310" .
+
+ex:dicom_d098948b25a341378bf128b743f3a6f2 a dcat:Dataset ;
+    dct:creator "TOSHIBA" ;
+    dct:date "20040826" ;
+    dct:description "Modality: MR" ;
+    dct:identifier "4MR1" ;
+    dct:title "Unknown" ;
+    foaf:name "CompressedSamples^MR1" .
+
